@@ -89,6 +89,7 @@ const storybookModuleFederationConfig = {
     './Box': '/packages/box/src/index.ts',
     './Callout': '/packages/callout/src/index.ts',
     './Card': '/packages/card/src/index.ts',
+    './Chip': '/packages/chip/src/index.ts',
     './Checkbox': '/packages/checkbox/src/index.ts',
     './Code': '/packages/code/src/index.ts',
     './Combobox': '/packages/combobox/src/index.ts',
