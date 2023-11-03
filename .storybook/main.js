@@ -83,7 +83,6 @@ const storybookModuleFederationConfig = {
     './Modal': '/packages/modal/src/index.ts',
     './Badge': '/packages/badge/src/index.ts',
     './Icon': '/packages/icon/src/Icon.tsx',
-    './Typography': '/packages/typography/src/index.ts',
     './LoadingIndicator': '/packages/loading-indicator/src/index.ts',
     './Banner': '/packages/banner/src/index.ts',
     './Box': '/packages/box/src/index.ts',
