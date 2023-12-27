@@ -82,7 +82,7 @@ const storybookModuleFederationConfig = {
     './Popover': '/packages/popover/src/index.ts',
     './Modal': '/packages/modal/src/index.ts',
     './Badge': '/packages/badge/src/index.ts',
-    './Icon': '/packages/icon/src/Icon.tsx',
+    './Icon': '/packages/icon/src/index.ts',
     './LoadingIndicator': '/packages/loading-indicator/src/index.ts',
     './Banner': '/packages/banner/src/index.ts',
     './Box': '/packages/box/src/index.ts',
