@@ -37,6 +37,11 @@ const storybookConfig = {
       include: path.resolve(__dirname, '../', 'node_modules'),
     });
 
+    config.module.rules.push({
+      test: /\.svg$/, 
+      use: ['@svgr/webpack'] 
+    }),
+
     config.plugins.push(
       new CopyPlugin({
         patterns: [
