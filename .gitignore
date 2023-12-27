@@ -56,3 +56,5 @@ scripts/tmp.*.ts
 .changeset/pre.json
 
 TODO.md
+
+src/assets/global.css

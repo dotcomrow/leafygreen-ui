@@ -32,15 +32,12 @@ const storybookConfig = {
     );
 
     config.module.rules.push({
-      test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+      test: /\.(png|jpg|gif|eot|ttf|woff|woff2)$/,
       use: [{ loader: 'url-loader' }],
       include: path.resolve(__dirname, '../', 'node_modules'),
     });
 
-    config.module.rules.push({
-      test: /\.svg$/, 
-      use: ['@svgr/webpack'] 
-    }),
+    config.module.rules.push({ test: /\.svg$/, loader: 'svg-inline-loader' }  ),
 
     config.plugins.push(
       new CopyPlugin({
