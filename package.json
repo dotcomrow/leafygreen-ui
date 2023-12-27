@@ -63,7 +63,8 @@
     "gulp-clean-css":"^4.3.0",
     "gulp-copy":"^4.0.1",
     "gulp-sass":"^5.1.0",
-    "svg-inline-loader": "^0.8.2"
+    "svg-inline-loader": "^0.8.2",
+    "file-loader": "^6.2.0"
   },
   "dependencies": {
     "bootstrap":"^5.3.2"

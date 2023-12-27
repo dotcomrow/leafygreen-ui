@@ -31,20 +31,32 @@ const storybookConfig = {
       rule => rule.use && rule.use.options && rule.use.options.babelrc === true,
     );
 
-    config.module.rules.push({
-      test: /\.(png|jpg|gif|eot|ttf|woff|woff2)$/,
-      use: [{ loader: 'url-loader' }],
-      include: path.resolve(__dirname, '../', 'node_modules'),
-    });
-
-    config.module.rules.push({ test: /\.svg$/, loader: 'svg-inline-loader' }  ),
+    config.module.rules.push(
+      {
+        test: /\.(png|jpg|gif|eot|ttf|woff|woff2)$/,
+        use: [{ loader: 'url-loader' }],
+        include: path.resolve(__dirname, '../', 'node_modules'),
+      },
+      { 
+        test: /\.svg$/, 
+        use: [{ loader: 'file-loader' }],
+      },
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+        include: path.resolve(__dirname, '../', 'node_modules'),
+      },
+    );
 
     config.plugins.push(
       new CopyPlugin({
         patterns: [
           {
             from: path.resolve(__dirname, '../src/assets/global.css'),
-            to: path.resolve(__dirname, '../storybook-static/assets/global.css'),
+            to: path.resolve(
+              __dirname,
+              '../storybook-static/assets/global.css',
+            ),
           },
         ],
       }),
@@ -65,11 +77,6 @@ const storybookConfig = {
       },
     };
 
-    config.module.rules.push({
-      test: /\.scss$/,
-      use: ['style-loader', 'css-loader', 'sass-loader'],
-      include: path.resolve(__dirname, '../', 'node_modules'),
-    });
     return config;
   },
 };
