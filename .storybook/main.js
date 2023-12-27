@@ -26,7 +26,7 @@ const storybookConfig = {
     storyStoreV7: false,
   },
   webpackFinal: async (config, { configType }) => {
-    config.output.filename = 'dtk/' + config.output.filename;
+    config.output.filename = config.output.filename;
     const webComponentsRule = config.module.rules.find(
       rule => rule.use && rule.use.options && rule.use.options.babelrc === true,
     );
@@ -74,7 +74,7 @@ const storybookConfig = {
 
 const storybookModuleFederationConfig = {
   name: 'storybook',
-  filename: 'dtk/remoteEntry.js',
+  filename: 'remoteEntry.js',
   exposes: {
     './BaseStyles': '/src/assets/global.css',
     './Button': '/packages/button/src/index.ts',
