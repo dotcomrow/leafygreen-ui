@@ -39,7 +39,7 @@ const storybookConfig = {
       },
       { 
         test: /\.svg$/, 
-        use: [{ loader: 'file-loader' }],
+        use: [{ loader: 'svg-inline-loader' }],
       },
       {
         test: /\.scss$/,
