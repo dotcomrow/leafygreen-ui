@@ -4,6 +4,7 @@ const {
 } = require('storybook-module-federation');
 const CopyPlugin = require('copy-webpack-plugin');
 const ProvidePlugin = require('webpack').ProvidePlugin;
+const miniSVGDataURI = require('mini-svg-data-uri');
 const storybookConfig = {
   framework: '@storybook/web-components-webpack5',
   stories: [
@@ -26,18 +27,13 @@ const storybookConfig = {
     storyStoreV7: false,
   },
   webpackFinal: async (config, { configType }) => {
-    config.output.filename = config.output.filename;
-    const webComponentsRule = config.module.rules.find(
-      rule => rule.use && rule.use.options && rule.use.options.babelrc === true,
-    );
-
     config.module.rules.push(
-      { 
-        test: /\.svg$/, 
-        use: [{ loader: 'react-svg-loader' }],
+      {
+        test: /\.svg$/,
+        use: [{ loader: 'url-loader' }],
       },
       {
-        test: /\.(png|jpg|gif|eot|svg|ttf|woff|woff2)$/,
+        test: /\.(png|jpg|gif|eot|ttf|woff|woff2)$/,
         use: [{ loader: 'url-loader' }],
         include: path.resolve(__dirname, '../', 'node_modules'),
       },
