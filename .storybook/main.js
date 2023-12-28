@@ -32,14 +32,14 @@ const storybookConfig = {
     );
 
     config.module.rules.push(
-      {
-        test: /\.(png|jpg|gif|eot|ttf|woff|woff2)$/,
-        use: [{ loader: 'url-loader' }],
-        include: path.resolve(__dirname, '../', 'node_modules'),
-      },
       { 
         test: /\.svg$/, 
-        use: [{ loader: 'svg-inline-loader' }],
+        use: [{ loader: 'react-svg-loader' }],
+      },
+      {
+        test: /\.(png|jpg|gif|eot|svg|ttf|woff|woff2)$/,
+        use: [{ loader: 'url-loader' }],
+        include: path.resolve(__dirname, '../', 'node_modules'),
       },
       {
         test: /\.scss$/,
