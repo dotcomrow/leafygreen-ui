@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 
 import { type ChipProps } from '@leafygreen-ui/chip';
 import { Either, HTMLElementProps } from '@leafygreen-ui/lib';
@@ -80,7 +80,7 @@ export type BaseComboboxProps = Omit<HTMLElementProps<'div'>, 'onChange'> &
     /**
      * A description for the input
      */
-    description?: string;
+    description?: ReactNode;
 
     /**
      * A placeholder for the input element. Uses the native `placeholder` attribute.
@@ -110,7 +110,12 @@ export type BaseComboboxProps = Omit<HTMLElementProps<'div'>, 'onChange'> &
     /**
      * The message shown below the input when state is `error`
      */
-    errorMessage?: string;
+    errorMessage?: ReactNode;
+
+    /**
+     * The message shown below the input when state is `valid`
+     */
+    successMessage?: ReactNode;
 
     /**
      * The state of search results. Toggles search messages within the menu.
@@ -155,6 +160,16 @@ export type BaseComboboxProps = Omit<HTMLElementProps<'div'>, 'onChange'> &
      * Do not remove options from the JSX children, as this will affect the selected options
      */
     filteredOptions?: Array<string>;
+
+    /**
+     * A callback fired when the input text changes
+     */
+    onInputChange?: React.ChangeEventHandler<HTMLInputElement>;
+
+    /**
+     * Allows for a controlled text-input value
+     */
+    inputValue?: string;
   };
 
 export type ComboboxProps<M extends boolean> = Either<
