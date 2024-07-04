@@ -31,22 +31,27 @@ const storybookConfig = {
       {
         test: /\.(ts|tsx|js|jsx)$/,
         exclude: /node_modules/,
-        devtool: 'eval-source-map',
-        sourceMaps: 'both',
         use: {
-            loader: 'babel-loader',
-            options: {
-                presets: ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"],
-                plugins: [
-                  "@babel/plugin-transform-runtime",
-                  ["transform-react-remove-prop-types", {
-                    "mode": "wrap",
-                    "ignoreFilenames": ["node_modules"]
-                  }]
-                ]
-            }
-        }
-    },
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react',
+              '@babel/preset-typescript',
+            ],
+            plugins: [
+              '@babel/plugin-transform-runtime',
+              [
+                'transform-react-remove-prop-types',
+                {
+                  mode: 'wrap',
+                  ignoreFilenames: ['node_modules'],
+                },
+              ],
+            ],
+          },
+        },
+      },
       {
         test: /\.svg$/,
         use: [{ loader: 'url-loader' }],
@@ -91,6 +96,10 @@ const storybookConfig = {
         stream: require.resolve('stream-browserify'),
       },
     };
+
+    config.devtool = 'eval-source-map';
+    config.sourceMaps= 'both';
+        
 
     return config;
   },
