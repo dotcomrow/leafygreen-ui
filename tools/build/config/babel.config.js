@@ -22,6 +22,10 @@ module.exports = function (api) {
   const plugins = [
     '@babel/plugin-proposal-export-default-from',
     '@emotion/babel-plugin',
+    ["transform-react-remove-prop-types", {
+      "mode": "wrap",
+      "ignoreFilenames": ["node_modules"]
+    }]
   ];
 
   return { presets, plugins };
