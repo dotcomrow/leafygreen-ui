@@ -98,8 +98,6 @@ const storybookConfig = {
     };
 
     config.devtool = 'eval-source-map';
-    config.sourceMaps= 'both';
-        
 
     return config;
   },
