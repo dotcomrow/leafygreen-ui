@@ -37,7 +37,7 @@ const storybookConfig = {
                 presets: ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"],
                 plugins: [
                   "@babel/plugin-transform-runtime",
-                  "@babel/transform-react-remove-prop-types"
+                  "transform-react-remove-prop-types"
                 ]
             }
         }

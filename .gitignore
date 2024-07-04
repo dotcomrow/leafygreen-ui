@@ -59,6 +59,7 @@ scripts/tmp.*
 
 TODO.md
 
+package-lock.json
 src/assets/global.css
 # PR train config (https://github.com/realyze/pr-train)
 .pr-train.yml
