@@ -31,6 +31,8 @@ const storybookConfig = {
       {
         test: /\.(ts|tsx|js|jsx)$/,
         exclude: /node_modules/,
+        devtool: 'eval-source-map',
+        sourceMaps: 'both',
         use: {
             loader: 'babel-loader',
             options: {
