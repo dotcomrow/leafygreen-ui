@@ -143,7 +143,7 @@ const configForFormat = format => ({
       babelHelpers: 'bundled',
       extensions,
       configFile: babelConfigPath,
-      sourceMaps: 'inline',
+      sourceMaps: 'both',
       envName: 'production',
     }),
 
