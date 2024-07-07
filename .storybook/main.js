@@ -158,6 +158,10 @@ const storybookModuleFederationConfig = {
     './Toggle': '/packages/toggle/src/index.ts',
     './Typography': '/packages/typography/src/index.ts',
     './SideNav': '/packages/side-nav/src/index.ts',
+    './lib': '/packages/lib/src/index.ts',
+    './tokens': '/packages/tokens/src/index.ts',
+    './hooks': '/packages/hooks/src/index.ts',
+    './form-field': '/packages/form-field/src/index.ts',
     './leafygreen-provider': '/packages/leafygreen-provider/src/index.ts',
   },
   shared: {
