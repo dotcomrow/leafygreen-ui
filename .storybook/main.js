@@ -108,6 +108,7 @@ const storybookModuleFederationConfig = {
   filename: 'remoteEntry.js',
   exposes: {
     './BaseStyles': '/src/assets/global.css',
+    './a11y': '/packages/a11y/src/index.ts',
     './Button': '/packages/button/src/index.ts',
     './Select': '/packages/select/src/index.ts',
     './Popover': '/packages/popover/src/index.ts',
@@ -162,6 +163,7 @@ const storybookModuleFederationConfig = {
     './tokens': '/packages/tokens/src/index.ts',
     './hooks': '/packages/hooks/src/index.ts',
     './form-field': '/packages/form-field/src/index.ts',
+    './input-option': '/packages/input-option/src/index.ts',
     './leafygreen-provider': '/packages/leafygreen-provider/src/index.ts',
   },
   shared: {
