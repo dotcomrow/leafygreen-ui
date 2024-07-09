@@ -165,6 +165,7 @@ const storybookModuleFederationConfig = {
     './form-field': '/packages/form-field/src/index.ts',
     './input-option': '/packages/input-option/src/index.ts',
     './leafygreen-provider': '/packages/leafygreen-provider/src/index.ts',
+    './leeafygreen-provider': '/packages/leafygreen-provider/src/index.ts',
   },
   shared: {
     react: {
