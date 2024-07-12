@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { css, cx } from '@leafygreen-ui/emotion';
-import SortAscendingIcon from '@leafygreen-ui/icon/dist/SortAscending';
-import SortDescendingIcon from '@leafygreen-ui/icon/dist/SortDescending';
-import UnsortedIcon from '@leafygreen-ui/icon/dist/Unsorted';
+import SortAscendingIcon from '@leafygreen-ui/icon/src/generated/SortAscending';
+import SortDescendingIcon from '@leafygreen-ui/icon/src/generated/SortDescending';
+import UnsortedIcon from '@leafygreen-ui/icon/src/generated/Unsorted';
 import IconButton from '@leafygreen-ui/icon-button';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import { enforceExhaustive, Theme } from '@leafygreen-ui/lib';

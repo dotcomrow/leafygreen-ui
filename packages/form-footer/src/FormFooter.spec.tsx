@@ -4,7 +4,7 @@ import { axe } from 'jest-axe';
 
 import Button from '@leafygreen-ui/button';
 import Icon from '@leafygreen-ui/icon';
-import XIcon from '@leafygreen-ui/icon/dist/X';
+import XIcon from '@leafygreen-ui/icon/src/generated/X';
 
 import { FormFooterProps } from './FormFooter.types';
 import FormFooter from '.';

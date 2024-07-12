@@ -1,7 +1,7 @@
 import React, { ForwardedRef, forwardRef } from 'react';
 
 import { cx } from '@leafygreen-ui/emotion';
-import SparkleIcon from '@leafygreen-ui/icon/dist/Sparkle';
+import SparkleIcon from '@leafygreen-ui/icon/src/generated/Sparkle';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import { Theme } from '@leafygreen-ui/lib';
 import { palette } from '@leafygreen-ui/palette';

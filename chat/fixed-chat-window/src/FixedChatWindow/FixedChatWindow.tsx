@@ -10,7 +10,7 @@ import { TransitionChildren } from 'react-transition-group/Transition';
 import { ChatWindow } from '@lg-chat/chat-window';
 
 import { cx } from '@leafygreen-ui/emotion';
-import ChevronDown from '@leafygreen-ui/icon/dist/ChevronDown';
+import ChevronDown from '@leafygreen-ui/icon/src/generated/ChevronDown';
 import Popover from '@leafygreen-ui/popover';
 
 import { ChatTrigger } from '../ChatTrigger/ChatTrigger';

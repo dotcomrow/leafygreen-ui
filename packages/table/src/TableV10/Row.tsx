@@ -3,8 +3,8 @@ import { Transition } from 'react-transition-group';
 
 import { css, cx } from '@leafygreen-ui/emotion';
 import { useIdAllocator } from '@leafygreen-ui/hooks';
-import ChevronDownIcon from '@leafygreen-ui/icon/dist/ChevronDown';
-import ChevronRightIcon from '@leafygreen-ui/icon/dist/ChevronRight';
+import ChevronDownIcon from '@leafygreen-ui/icon/src/generated/ChevronDown';
+import ChevronRightIcon from '@leafygreen-ui/icon/src/generated/ChevronRight';
 import IconButton from '@leafygreen-ui/icon-button';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import { HTMLElementProps, isComponentType, Theme } from '@leafygreen-ui/lib';

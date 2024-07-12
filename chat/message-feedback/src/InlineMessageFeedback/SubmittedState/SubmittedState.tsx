@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CheckmarkWithCircle from '@leafygreen-ui/icon/dist/CheckmarkWithCircle';
+import CheckmarkWithCircle from '@leafygreen-ui/icon/src/generated/CheckmarkWithCircle';
 import { palette } from '@leafygreen-ui/palette';
 import { Body } from '@leafygreen-ui/typography';
 

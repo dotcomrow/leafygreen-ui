@@ -7,7 +7,7 @@ import {
 import { StoryFn } from '@storybook/react';
 
 import { css, cx } from '@leafygreen-ui/emotion';
-import BeakerIcon from '@leafygreen-ui/icon/dist/Beaker';
+import BeakerIcon from '@leafygreen-ui/icon/src/generated/Beaker';
 import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
 
 import { Option, OptionGroup, Select, type SelectProps, Size, State } from '.';

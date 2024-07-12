@@ -2,9 +2,9 @@ import React from 'react';
 
 import { VisuallyHidden } from '@leafygreen-ui/a11y';
 import { cx } from '@leafygreen-ui/emotion';
-import CheckmarkIcon from '@leafygreen-ui/icon/dist/Checkmark';
-import WarningIcon from '@leafygreen-ui/icon/dist/Warning';
-import ErrorIcon from '@leafygreen-ui/icon/dist/X';
+import CheckmarkIcon from '@leafygreen-ui/icon/src/generated/Checkmark';
+import WarningIcon from '@leafygreen-ui/icon/src/generated/Warning';
+import ErrorIcon from '@leafygreen-ui/icon/src/generated/X';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 
 import { LGIDS_PASSWORD_INPUT } from '../constants';

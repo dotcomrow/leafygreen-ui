@@ -3,7 +3,7 @@ import defaults from 'lodash/defaults';
 import PropTypes from 'prop-types';
 
 import { cx } from '@leafygreen-ui/emotion';
-import XIcon from '@leafygreen-ui/icon/dist/X';
+import XIcon from '@leafygreen-ui/icon/src/generated/X';
 import IconButton from '@leafygreen-ui/icon-button';
 import LeafyGreenProvider, {
   useDarkMode,

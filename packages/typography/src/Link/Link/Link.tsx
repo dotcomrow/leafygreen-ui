@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useState } from 'react';
 
 import { cx } from '@leafygreen-ui/emotion';
-import ArrowRightIcon from '@leafygreen-ui/icon/dist/ArrowRight';
-import OpenNewTabIcon from '@leafygreen-ui/icon/dist/OpenNewTab';
+import ArrowRightIcon from '@leafygreen-ui/icon/src/generated/ArrowRight';
+import OpenNewTabIcon from '@leafygreen-ui/icon/src/generated/OpenNewTab';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import {
   hasAnchorProps,

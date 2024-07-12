@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ChevronRight from '@leafygreen-ui/icon/dist/ChevronRight';
+import ChevronRight from '@leafygreen-ui/icon/src/generated/ChevronRight';
 import { palette } from '@leafygreen-ui/palette';
 
 import { tooltipTextStyles } from './styles';

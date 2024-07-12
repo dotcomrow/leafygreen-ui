@@ -2,7 +2,7 @@ import React, { useCallback, useContext } from 'react';
 
 import Button, { Size as ButtonSize, Variant } from '@leafygreen-ui/button';
 import { css, cx } from '@leafygreen-ui/emotion';
-import CaretDownIcon from '@leafygreen-ui/icon/dist/CaretDown';
+import CaretDownIcon from '@leafygreen-ui/icon/src/generated/CaretDown';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import { Theme } from '@leafygreen-ui/lib';
 

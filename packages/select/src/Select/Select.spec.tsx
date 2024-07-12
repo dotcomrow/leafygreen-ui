@@ -10,7 +10,7 @@ import {
 } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import BeakerIcon from '@leafygreen-ui/icon/dist/Beaker';
+import BeakerIcon from '@leafygreen-ui/icon/src/generated/Beaker';
 import { PopoverContext } from '@leafygreen-ui/leafygreen-provider';
 import { keyMap } from '@leafygreen-ui/lib';
 import { Context, jest as Jest } from '@leafygreen-ui/testing-lib';

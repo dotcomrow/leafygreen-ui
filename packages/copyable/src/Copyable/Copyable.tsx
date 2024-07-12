@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Button from '@leafygreen-ui/button';
 import { cx } from '@leafygreen-ui/emotion';
 import { useIdAllocator } from '@leafygreen-ui/hooks';
-import CopyIcon from '@leafygreen-ui/icon/dist/Copy';
+import CopyIcon from '@leafygreen-ui/icon/src/generated/Copy';
 import {
   useDarkMode,
   usePopoverPortalContainer,

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { validateAriaLabelProps } from '@leafygreen-ui/a11y';
 import { cx } from '@leafygreen-ui/emotion';
-import CheckmarkIcon from '@leafygreen-ui/icon/dist/Checkmark';
+import CheckmarkIcon from '@leafygreen-ui/icon/src/generated/Checkmark';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 
 import { LGIDS_TOGGLE } from '../constants';

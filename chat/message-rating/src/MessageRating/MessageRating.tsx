@@ -2,8 +2,8 @@ import React, { ForwardedRef, forwardRef, useState } from 'react';
 
 import { cx } from '@leafygreen-ui/emotion';
 import { useIdAllocator } from '@leafygreen-ui/hooks';
-import ThumbsDown from '@leafygreen-ui/icon/dist/ThumbsDown';
-import ThumbsUp from '@leafygreen-ui/icon/dist/ThumbsUp';
+import ThumbsDown from '@leafygreen-ui/icon/src/generated/ThumbsDown';
+import ThumbsUp from '@leafygreen-ui/icon/src/generated/ThumbsUp';
 import LeafyGreenProvider, {
   useDarkMode,
 } from '@leafygreen-ui/leafygreen-provider';

@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 import { cx } from '@leafygreen-ui/emotion';
 import { useIdAllocator } from '@leafygreen-ui/hooks';
-import ChevronLeft from '@leafygreen-ui/icon/dist/ChevronLeft';
-import ChevronRight from '@leafygreen-ui/icon/dist/ChevronRight';
+import ChevronLeft from '@leafygreen-ui/icon/src/generated/ChevronLeft';
+import ChevronRight from '@leafygreen-ui/icon/src/generated/ChevronRight';
 import IconButton from '@leafygreen-ui/icon-button';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import LeafyGreenProvider from '@leafygreen-ui/leafygreen-provider';
