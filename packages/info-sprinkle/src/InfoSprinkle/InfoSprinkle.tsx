@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { cx } from '@leafygreen-ui/emotion';
-import InfoWithCircleIcon from '@leafygreen-ui/icon/dist/InfoWithCircle';
+import InfoWithCircleIcon from '@leafygreen-ui/icon/src/generated/InfoWithCircle';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import Tooltip from '@leafygreen-ui/tooltip';
 

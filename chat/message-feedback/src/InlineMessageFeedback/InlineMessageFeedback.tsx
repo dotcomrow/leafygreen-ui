@@ -11,7 +11,7 @@ import React, {
 import Button from '@leafygreen-ui/button';
 import { useIdAllocator } from '@leafygreen-ui/hooks';
 // @ts-ignore LG icons don't currently support TS
-import XIcon from '@leafygreen-ui/icon/dist/X';
+import XIcon from '@leafygreen-ui/icon/src/generated/X';
 import IconButton from '@leafygreen-ui/icon-button';
 import LeafyGreenProvider, {
   useDarkMode,

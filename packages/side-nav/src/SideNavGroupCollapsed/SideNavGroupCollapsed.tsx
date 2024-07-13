@@ -3,7 +3,7 @@ import { Transition, TransitionStatus } from 'react-transition-group';
 
 import { css, cx } from '@leafygreen-ui/emotion';
 import { useIdAllocator } from '@leafygreen-ui/hooks';
-import ChevronRight from '@leafygreen-ui/icon/dist/ChevronRight';
+import ChevronRight from '@leafygreen-ui/icon/src/generated/ChevronRight';
 import { useUsingKeyboardContext } from '@leafygreen-ui/leafygreen-provider';
 import { palette } from '@leafygreen-ui/palette';
 

@@ -1,11 +1,11 @@
 /* eslint-disable react/display-name */
 import React from 'react';
 
-import CheckmarkWithCircleIcon from '@leafygreen-ui/icon/dist/CheckmarkWithCircle';
-import ImportantWithCircleIcon from '@leafygreen-ui/icon/dist/ImportantWithCircle';
-import InfoWithCircle from '@leafygreen-ui/icon/dist/InfoWithCircle';
-import RefreshIcon from '@leafygreen-ui/icon/dist/Refresh';
-import WarningIcon from '@leafygreen-ui/icon/dist/Warning';
+import CheckmarkWithCircleIcon from '@leafygreen-ui/icon/src/generated/CheckmarkWithCircle';
+import ImportantWithCircleIcon from '@leafygreen-ui/icon/src/generated/ImportantWithCircle';
+import InfoWithCircle from '@leafygreen-ui/icon/src/generated/InfoWithCircle';
+import RefreshIcon from '@leafygreen-ui/icon/src/generated/Refresh';
+import WarningIcon from '@leafygreen-ui/icon/src/generated/Warning';
 
 import { Variant } from '../Toast.types';
 

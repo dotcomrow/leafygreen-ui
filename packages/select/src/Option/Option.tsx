@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { css, cx } from '@leafygreen-ui/emotion';
 import { usePrevious } from '@leafygreen-ui/hooks';
 import { isComponentGlyph } from '@leafygreen-ui/icon';
-import CheckmarkIcon from '@leafygreen-ui/icon/dist/Checkmark';
+import CheckmarkIcon from '@leafygreen-ui/icon/src/generated/Checkmark';
 import { InputOption, InputOptionContent } from '@leafygreen-ui/input-option';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import { fontWeights } from '@leafygreen-ui/tokens';

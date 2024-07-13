@@ -11,8 +11,8 @@ import PropTypes from 'prop-types';
 
 import { useDescendant } from '@leafygreen-ui/descendants';
 import { css, cx } from '@leafygreen-ui/emotion';
-import ChevronDownIcon from '@leafygreen-ui/icon/dist/ChevronDown';
-import ChevronUpIcon from '@leafygreen-ui/icon/dist/ChevronUp';
+import ChevronDownIcon from '@leafygreen-ui/icon/src/generated/ChevronDown';
+import ChevronUpIcon from '@leafygreen-ui/icon/src/generated/ChevronUp';
 import IconButton from '@leafygreen-ui/icon-button';
 import { keyMap } from '@leafygreen-ui/lib';
 import {

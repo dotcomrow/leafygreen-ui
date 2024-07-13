@@ -11,7 +11,7 @@ import userEvent from '@testing-library/user-event';
 import { axe } from 'jest-axe';
 
 import Icon from '@leafygreen-ui/icon';
-import CloudIcon from '@leafygreen-ui/icon/dist/Cloud';
+import CloudIcon from '@leafygreen-ui/icon/src/generated/Cloud';
 import { HTMLElementProps, OneOf } from '@leafygreen-ui/lib';
 import { transitionDuration } from '@leafygreen-ui/tokens';
 

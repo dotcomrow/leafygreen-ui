@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { cx } from '@leafygreen-ui/emotion';
-import ChevronLeft from '@leafygreen-ui/icon/dist/ChevronLeft';
-import ChevronRight from '@leafygreen-ui/icon/dist/ChevronRight';
+import ChevronLeft from '@leafygreen-ui/icon/src/generated/ChevronLeft';
+import ChevronRight from '@leafygreen-ui/icon/src/generated/ChevronRight';
 import Tooltip from '@leafygreen-ui/tooltip';
 import { InlineKeyCode } from '@leafygreen-ui/typography';
 

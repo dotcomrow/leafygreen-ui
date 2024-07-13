@@ -3,7 +3,7 @@ import React from 'react';
 import { css, cx } from '@leafygreen-ui/emotion';
 import { usePrevious } from '@leafygreen-ui/hooks';
 import { isComponentGlyph } from '@leafygreen-ui/icon';
-import FileIcon from '@leafygreen-ui/icon/dist/File';
+import FileIcon from '@leafygreen-ui/icon/src/generated/File';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import { isComponentType } from '@leafygreen-ui/lib';
 import { palette } from '@leafygreen-ui/palette';

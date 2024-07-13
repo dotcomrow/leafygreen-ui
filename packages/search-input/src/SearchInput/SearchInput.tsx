@@ -21,8 +21,8 @@ import {
   useDynamicRefs,
   useForwardedRef,
 } from '@leafygreen-ui/hooks';
-import MagnifyingGlass from '@leafygreen-ui/icon/dist/MagnifyingGlass';
-import XIcon from '@leafygreen-ui/icon/dist/XWithCircle';
+import MagnifyingGlass from '@leafygreen-ui/icon/src/generated/MagnifyingGlass';
+import XIcon from '@leafygreen-ui/icon/src/generated/XWithCircle';
 import IconButton from '@leafygreen-ui/icon-button';
 import LeafyGreenProvider, {
   useDarkMode,

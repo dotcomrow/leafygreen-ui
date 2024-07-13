@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { cx } from '@leafygreen-ui/emotion';
-import ArrowLeftIcon from '@leafygreen-ui/icon/dist/ArrowLeft';
+import ArrowLeftIcon from '@leafygreen-ui/icon/src/generated/ArrowLeft';
 import { useDarkMode } from '@leafygreen-ui/leafygreen-provider';
 import {
   InferredPolymorphic,

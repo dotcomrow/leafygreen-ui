@@ -4,8 +4,8 @@ import ClipboardJS from 'clipboard';
 import { VisuallyHidden } from '@leafygreen-ui/a11y';
 import { cx } from '@leafygreen-ui/emotion';
 import { useBackdropClick } from '@leafygreen-ui/hooks';
-import CheckmarkIcon from '@leafygreen-ui/icon/dist/Checkmark';
-import CopyIcon from '@leafygreen-ui/icon/dist/Copy';
+import CheckmarkIcon from '@leafygreen-ui/icon/src/generated/Checkmark';
+import CopyIcon from '@leafygreen-ui/icon/src/generated/Copy';
 import IconButton from '@leafygreen-ui/icon-button';
 import {
   useDarkMode,

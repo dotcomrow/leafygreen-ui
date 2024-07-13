@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Banner, { Variant as BannerVariant } from '@leafygreen-ui/banner';
 import Button, { Variant as ButtonVariant } from '@leafygreen-ui/button';
 import { cx } from '@leafygreen-ui/emotion';
-import ArrowLeftIcon from '@leafygreen-ui/icon/dist/ArrowLeft';
+import ArrowLeftIcon from '@leafygreen-ui/icon/src/generated/ArrowLeft';
 import LeafyGreenProvider, {
   useDarkMode,
 } from '@leafygreen-ui/leafygreen-provider';
